@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanjalika Water Park</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Sanjali<span>ka</span> 🌊</div>
+    <ul class="nav-links">
+      <li><a href="#attractions">Attractions</a></li>
+      <li><a href="#why">About</a></li>
+      <li><a href="#tickets">Tickets</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-btn" onclick="document.getElementById('tickets').scrollIntoView({behavior:'smooth'})">Book Now</button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="waves-container">
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+    </div>
+    <div class="bubble" style="width:12px;height:12px;left:10%;animation-duration:8s;animation-delay:0s;"></div>
+    <div class="bubble" style="width:20px;height:20px;left:20%;animation-duration:12s;animation-delay:2s;"></div>
+    <div class="bubble" style="width:8px;height:8px;left:35%;animation-duration:9s;animation-delay:4s;"></div>
+    <div class="bubble" style="width:16px;height:16px;left:55%;animation-duration:11s;animation-delay:1s;"></div>
+    <div class="bubble" style="width:24px;height:24px;left:70%;animation-duration:14s;animation-delay:3s;"></div>
+    <div class="bubble" style="width:10px;height:10px;left:85%;animation-duration:10s;animation-delay:5s;"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">✦ Pakistan's Premier Water Destination</div>
+      <h1 class="hero-title">
+        <span class="line1">Welcome to</span>
+        <span class="line2">Sanjalika</span>
+      </h1>
+      <p class="hero-sub">Experience the ultimate aquatic adventure. Thrilling rides, crystal-clear pools, and unforgettable memories for the whole family.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('attractions').scrollIntoView({behavior:'smooth'})">Explore Rides 🎢</button>
+        <button class="btn-outline" onclick="document.getElementById('tickets').scrollIntoView({behavior:'smooth'})">Buy Tickets</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><div class="stat-num">25+</div><div class="stat-label">Rides & Slides</div></div>
+        <div class="stat"><div class="stat-num">50K+</div><div class="stat-label">Happy Visitors</div></div>
+        <div class="stat"><div class="stat-num">15</div><div class="stat-label">Acres of Fun</div></div>
+        <div class="stat"><div class="stat-num">4.9★</div><div class="stat-label">Rating</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATTRACTIONS -->
+  <section id="attractions">
+    <div class="section-header">
+      <div class="section-tag">✦ Attractions</div>
+      <h2 class="section-title">Thrills for Everyone</h2>
+      <p class="section-sub">From heart-pumping slides to relaxing lazy rivers — there's something magical for every age.</p>
+    </div>
+    <div class="attractions-grid">
+      <div class="attraction-card card-hot">
+        <div class="card-icon">🌊</div>
+        <div class="card-body">
+          <h3>Wave Pool</h3>
+          <p>Dive into our massive wave pool with 6-foot waves! Feel the ocean experience right here in the park.</p>
+          <span class="card-tag">🔥 Most Popular</span>
+        </div>
+      </div>
+      <div class="attraction-card">
+        <div class="card-icon">🎢</div>
+        <div class="card-body">
+          <h3>Tornado Twister</h3>
+          <p>Pakistan's tallest water slide! A 60-foot drop at 50km/h will leave you breathless and screaming for more.</p>
+          <span class="card-tag">⚡ Extreme Thrill</span>
+        </div>
+      </div>
+      <div class="attraction-card">
+        <div class="card-icon">🛟</div>
+        <div class="card-body">
+          <h3>Lazy River</h3>
+          <p>Drift along our 400-meter scenic lazy river. Grab a float and just relax under the warm sun.</p>
+          <span class="card-tag">😌 Relaxing</span>
+        </div>
+      </div>
+      <div class="attraction-card card-hot">
+        <div class="card-icon">🏄</div>
+        <div class="card-body">
+          <h3>Surf Simulator</h3>
+          <p>Learn to surf on our state-of-the-art FlowRider machine. Lessons available for beginners and pros!</p>
+          <span class="card-tag">🌟 New This Year</span>
+        </div>
+      </div>
+      <div class="attraction-card">
+        <div class="card-icon">🐬</div>
+        <div class="card-body">
+          <h3>Dolphin Splash Zone</h3>
+          <p>A fun-filled kids area with mini slides, splash pads, and water cannons. Safe and exciting for little ones!</p>
+          <span class="card-tag">👶 Kids Friendly</span>
+        </div>
+      </div>
+      <div class="attraction-card">
+        <div class="card-icon">🏊</div>
+        <div class="card-body">
+          <h3>Olympic Pool</h3>
+          <p>Our Olympic-size swimming pool with crystal-clear water. Perfect for laps or casual swimming sessions.</p>
+          <span class="card-tag">💧 All Ages</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why">
+    <div class="why-grid">
+      <div class="why-visual">
+        <div class="vc vc1"></div>
+        <div class="vc vc2"></div>
+        <div class="vc vc3"></div>
+        <div class="big-emoji">🌊</div>
+      </div>
+      <div>
+        <div class="section-tag">✦ Why Choose Us</div>
+        <h2 class="section-title">Your Safety & Fun<br>is Our Priority</h2>
+        <p class="section-sub" style="margin-bottom:2.5rem;">We combine world-class infrastructure with exceptional hospitality to give every visitor the best aquatic experience in Pakistan.</p>
+        <div class="features-list">
+          <div class="feature-item">
+            <div class="feature-icon">🛡️</div>
+            <div class="feature-text">
+              <h4>100% Safety Certified</h4>
+              <p>All rides and pools are inspected daily. Trained lifeguards stationed at every point in the park.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🌿</div>
+            <div class="feature-text">
+              <h4>Eco-Friendly Water Systems</h4>
+              <p>Advanced water recycling and filtration technology keeps our pools clean and eco-responsible.</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🍔</div>
+            <div class="feature-text">
+              <h4>Food Courts & Restaurants</h4>
+              <p>6 dining spots serving Pakistani and international cuisines. From BBQ to ice cream!</p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🅿️</div>
+            <div class="feature-text">
+              <h4>Free Parking & Easy Access</h4>
+              <p>Massive parking area with dedicated lanes. Located on the main highway for easy travel.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TICKETS -->
+  <section id="tickets">
+    <div class="section-header">
+      <div class="section-tag">✦ Ticket Prices</div>
+      <h2 class="section-title">Choose Your Adventure</h2>
+      <p class="section-sub">Affordable passes for everyone. Group discounts and seasonal packages available.</p>
+    </div>
+    <div class="tickets-grid">
+      <div class="ticket-card">
+        <div class="ticket-icon">🧒</div>
+        <div class="ticket-name">Child Pass</div>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.82rem;">Ages 3–12 years</p>
+        <div class="ticket-price">Rs 800<span>/day</span></div>
+        <ul class="ticket-features">
+          <li>All Kids Rides</li>
+          <li>Dolphin Splash Zone</li>
+          <li>Swimming Pool</li>
+          <li>Free Float Rental</li>
+        </ul>
+        <button class="btn-ticket btn-ticket-outline">Get Pass</button>
+      </div>
+      <div class="ticket-card featured">
+        <div class="ticket-badge">⭐ Most Popular</div>
+        <div class="ticket-icon">🏄</div>
+        <div class="ticket-name">Adult Pass</div>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.82rem;">Ages 13+ years</p>
+        <div class="ticket-price">Rs 1,500<span>/day</span></div>
+        <ul class="ticket-features">
+          <li>All 25+ Rides & Slides</li>
+          <li>Wave Pool & Lazy River</li>
+          <li>Surf Simulator (1 session)</li>
+          <li>Olympic Pool Access</li>
+          <li>Free Locker</li>
+        </ul>
+        <button class="btn-ticket btn-ticket-primary">Get Pass</button>
+      </div>
+      <div class="ticket-card">
+        <div class="ticket-icon">👨‍👩‍👧‍👦</div>
+        <div class="ticket-name">Family Pass</div>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.82rem;">2 Adults + 2 Kids</p>
+        <div class="ticket-price">Rs 4,000<span>/day</span></div>
+        <ul class="ticket-features">
+          <li>All Rides for 4 People</li>
+          <li>Priority Queue Access</li>
+          <li>Free Meal Voucher</li>
+          <li>2 Surf Sessions</li>
+          <li>Free Parking</li>
+        </ul>
+        <button class="btn-ticket btn-ticket-outline">Get Pass</button>
+      </div>
+      <div class="ticket-card">
+        <div class="ticket-icon">👥</div>
+        <div class="ticket-name">Group Pass</div>
+        <p style="color:rgba(255,255,255,0.45);font-size:0.82rem;">10+ People</p>
+        <div class="ticket-price">Rs 1,000<span>/person</span></div>
+        <ul class="ticket-features">
+          <li>All Rides Included</li>
+          <li>Dedicated Group Area</li>
+          <li>BBQ & Buffet Option</li>
+          <li>Group Photography</li>
+          <li>Custom Packages Available</li>
+        </ul>
+        <button class="btn-ticket btn-ticket-outline">Contact Us</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="section-header">
+      <div class="section-tag">✦ Gallery</div>
+      <h2 class="section-title">Memories in the Making</h2>
+      <p class="section-sub">A glimpse into the endless fun that awaits you at Sanjalika Water Park.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item tall">
+        <div class="gallery-placeholder">
+          <div class="gallery-inner" style="background:linear-gradient(135deg,rgba(0,100,180,0.5),rgba(0,30,60,0.8))">
+            <span>🌊</span><p>Wave Pool</p>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-overlay-text">Giant Wave Pool →</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <div class="gallery-inner" style="background:linear-gradient(135deg,rgba(247,127,0,0.4),rgba(0,30,60,0.8))">
+            <span>🎢</span><p>Tornado Twister</p>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-overlay-text">Extreme Slides →</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <div class="gallery-inner" style="background:linear-gradient(135deg,rgba(0,180,100,0.4),rgba(0,30,60,0.8))">
+            <span>🌿</span><p>Park Grounds</p>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-overlay-text">Lush Surroundings →</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <div class="gallery-inner" style="background:linear-gradient(135deg,rgba(255,100,100,0.4),rgba(0,30,60,0.8))">
+            <span>🏄</span><p>Surf Simulator</p>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-overlay-text">FlowRider →</span></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-placeholder">
+          <div class="gallery-inner" style="background:linear-gradient(135deg,rgba(0,150,200,0.4),rgba(0,30,60,0.8))">
+            <span>🐬</span><p>Kids Zone</p>
+          </div>
+        </div>
+        <div class="gallery-overlay"><span class="gallery-overlay-text">Dolphin Zone →</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <div class="section-tag">✦ Contact Us</div>
+      <h2 class="section-title">Plan Your Visit</h2>
+      <p class="section-sub">Have questions? Want to book for a group or event? We're here to help!</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Location</h4>
+            <p>Main GT Road, Near Toll Plaza<br>Gujranwala, Punjab, Pakistan</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>Monday – Thursday: 10:00 AM – 8:00 PM<br>Friday – Sunday: 9:00 AM – 10:00 PM</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <h4>Phone</h4>
+            <p>+92 300 1234567<br>+92 42 9876543</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <h4>Email</h4>
+            <p>info@sanjalikawaterpark.pk<br>bookings@sanjalikawaterpark.pk</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h3 style="font-family:'Playfair Display',serif;margin-bottom:1.5rem;">Send a Message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Ali Khan"/>
+          </div>
+          <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="+92 300 0000000"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="you@example.com"/>
+        </div>
+        <div class="form-group">
+          <label>Visit Type</label>
+          <select>
+            <option>Individual Visit</option>
+            <option>Family Package</option>
+            <option>Group Booking (10+)</option>
+            <option>Corporate Event</option>
+            <option>Birthday Party</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell us about your visit plans or any questions..."></textarea>
+        </div>
+        <button class="btn-submit" onclick="alert('Message sent! We will contact you soon. 🌊')">Send Message 🚀</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">Sanjali<span>ka</span> 🌊</div>
+        <p>Pakistan's premier water park destination. Creating unforgettable aquatic memories since 2010.</p>
+        <div class="footer-social">
+          <div class="social-btn" title="Facebook">📘</div>
+          <div class="social-btn" title="Instagram">📷</div>
+          <div class="social-btn" title="YouTube">▶️</div>
+          <div class="social-btn" title="TikTok">🎵</div>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#attractions">Attractions</a></li>
+          <li><a href="#tickets">Tickets</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Attractions</h5>
+        <ul>
+          <li><a href="#">Wave Pool</a></li>
+          <li><a href="#">Tornado Twister</a></li>
+          <li><a href="#">Lazy River</a></li>
+          <li><a href="#">Surf Simulator</a></li>
+          <li><a href="#">Kids Zone</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Information</h5>
+        <ul>
+          <li><a href="#">Safety Rules</a></li>
+          <li><a href="#">Park Map</a></li>
+          <li><a href="#">Dining Options</a></li>
+          <li><a href="#">Group Bookings</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 <span>Sanjalika Water Park</span>. All rights reserved.</p>
+      <p>Made with 💙 in Pakistan</p>
+    </div>
+  </footer>
+
+  <button class="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
